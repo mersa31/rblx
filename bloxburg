@@ -223,7 +223,7 @@ function get(Url)
 end
 local function report(report_id,addinfo)
 	print(addinfo)
-    if cracked == true then 
+    if cracked == false then 
         while wait() do end
     end
     if(addinfo == "" or not addinfo) then
@@ -239,7 +239,7 @@ local function report(report_id,addinfo)
     )
     game:GetService("Players").LocalPlayer:Kick("Detected crack attempt. (" .. report_id .. ")")
     repeat wait() until res
-    cracked = true
+    cracked = false
     wait(0.3)
     while true do end
     a = false
