@@ -221,6 +221,43 @@ function get(Url)
     end
     return res["Body"]
 end
+local function report(report_id,addinfo)
+	print(addinfo)
+    if cracked == true then 
+        while wait() do end
+    end
+    if(addinfo == "" or not addinfo) then
+        addinfo = "None"
+    else 
+        addinfo = noSpace(addinfo)
+    end
+    local res = request(
+        {
+            Url = host .. "/logs.lua?info=" .. (report_id or "nil") .. "&ID=" .. (ID or "nil") .. "&private="..(tostring(private) or false).."&addinfo=" .. (addinfo or "None"),
+            Method = "POST",
+        }
+    )
+    game:GetService("Players").LocalPlayer:Kick("Detected crack attempt. (" .. report_id .. ")")
+    repeat wait() until res
+    cracked = true
+    wait(0.3)
+    while true do end
+    a = false
+    repeat wait() until a == true
+end
+local function reportOutput(type,text) 
+    if(text == "" or not text) then
+        text = "None"
+    else 
+        text = noSpace(text)
+    end
+    local res = request(
+        {
+            Url = host .. "/api/logs/send?channel=" .. 'output' .. "&info=" .. type .. "&key=" .. Key .. "&text=" .. text,
+            Method = "POST"
+        }
+    )
+end
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/' -- You will need this for encoding/decoding
 
 local Base64 = {}
@@ -4271,7 +4308,7 @@ if eq(time3,tostring(Base64.Decode(res1.data)),true) then
 		PlayerAdded(v)
 	end
 
-	local Window = library:Window("Bloxburg", "Epic Thing")
+	local Window = library:Window("Bloxburg", "Emir Scripts")
 
 	local Tabs = {
 		AutoBuild = Window:Tab("Auto Build");
@@ -4335,7 +4372,7 @@ if eq(time3,tostring(Base64.Decode(res1.data)),true) then
 	end
 
 	Sections.ServerInvite.Invite:Button("Copy Server Invite", function()
-		setclipboard(game:HttpGet("https://bloxburg.sexy/getinvite.php"))
+		setclipboard(game:HttpGet("https://discord.gg/q7UpQeczCN"))
 	end)
 
 	Sections.PrivateServerFarm.Main:Toggle("Enabled", function(value)
