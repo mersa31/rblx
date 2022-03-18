@@ -1,3 +1,3 @@
-getgenv().key = "j3259453-211d-p81t-744l-938984gok133"
+getgenv().key = "m0956987-970v-c68k-225u-763501frq282" 
 
 loadstring(game:HttpGet("https://talornoob.000webhostapp.com/scripts/Crash-Main", true))()
