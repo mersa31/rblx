@@ -1,6 +1,6 @@
-if game.PlaceId == 606849621 then -- Jailbreak - Auto Rob
+if game.PlaceId == 606849621 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
-elseif game.PlaceId == 1224212277 then -- Animal Simulator
+elseif game.PlaceId == 1224212277 then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/mersa31/rblx/main/MadCityAutoRob", true))()
 end
 
