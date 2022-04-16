@@ -2,54 +2,8 @@
 
 if game.PlaceId == 606849621 then -- Jailbreak - Auto Rob
     loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
-elseif game.PlaceId == 1224212277 then -- Mad City Auto Rob
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/mersa31/rblx/main/MadCityAutoRob", true))()
-elseif game.PlaceId == 00 then -- Anime Dimensions
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/AnimeDimensions", true))()
-elseif game.PlaceId == 00 then -- Anime Clicker Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/AnimeClickerSim", true))()
-elseif game.PlaceId == 00 then -- Slap Battles
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/slapbattles", true))()
-elseif game.PlaceId == 00 then -- Farm Life
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/farmLife',true))()
-elseif game.PlaceId == 00 then -- Clicking Simulator
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/clickingSimulator',true))()
-elseif game.PlaceId == 00 then -- Burn Everything Simulator
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/burnEverythingSim',true))()
-elseif game.PlaceId == 00 then -- 0ne Piece
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/0nePiece',true))()
-elseif game.PlaceId == 00 then -- Collect All Pets
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Collect%20All%20Pets',true))()
-elseif game.PlaceId == 00 then -- Untitled Tag Game 
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/untitledTagGame',true))()
-elseif game.PlaceId == 00 then -- Orthoxia 
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Orthoxia',true))()
-elseif game.PlaceId == 00 then -- Space Simulator
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Space%20Simulator%202',true))()
-elseif game.PlaceId == 00 then -- Boom Simulator
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/BoomSimulator"))()
-elseif game.PlaceId == 00 then -- Chicken Life
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Chicken%20Life"))()
-elseif game.PlaceId == 00 then -- Pet Simulator X 
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Pet%20Simulator%20X"))()
-elseif game.PlaceId == 00 then -- Smashing Simulator X
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/SmashingSimulatorX"))()
-elseif game.PlaceId == 00 then -- Slashing Simulator
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Slashing%20Simulator"))()
-elseif game.PlaceId == 00 then -- Timber 
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Timber"))()
-elseif game.PlaceId == 00 then -- Star Simulator Beta
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/StarSimBeta"))()
-elseif game.PlaceId == 00 then -- Big Man Simulator
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Big%20Man',true))()
-elseif game.PlaceId == 00 then -- Tapping Legends X Owca S
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/TappingLegendsX',true))()
-elseif game.PlaceId == 00 then -- Pet Legacy Mayrushart
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/PetLegacy',true))()
-elseif game.PlaceId == 00 then -- Animal Simulator
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/AnimalSimulator',true))()
-else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/AnimeDimensions", true))()
+elseif game.PlaceId == 1224212277 then -- Animal Simulator
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/mersa31/rblx/main/MadCityAutoRob", true))()
 end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SunkenMuch/GameLog/main/FreeLog"))()
