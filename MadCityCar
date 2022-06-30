@@ -53,6 +53,29 @@ wait(2)
 game:GetService("Workspace").ObjectSelection[vehicle].DriveSeat.Disabled = true
   end
 end)
+example:AddButton("Get ur vehicle", function()
+game:GetService("Workspace").ObjectSelection[game.Players.LocalPlayer.Name .."'s Vehicle"]:MoveTo(game.Players.LocalPlayer.Character.HumanoidRootPart.Position)
+wait(0.5)
+game:GetService("Workspace").ObjectSelection[game.Players.LocalPlayer.Name .."'s Vehicle"].DriveSeat.Disabled = false
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").ObjectSelection[game.Players.LocalPlayer.Name .."'s Vehicle"].DriveSeat.CFrame
+end)
+example:AddToggle("Rob Stores", function(state)
+_G.Auto = (state and true or false)
+while _G.Auto == true do
+wait()
+pcall(function()
+for i,v in pairs(game:GetService("Workspace").ObjectSelection:GetDescendants()) do 
+if v.Name == "Cash" and v:IsA("MeshPart") or v.Name == "Steal" and v:IsA("Part") or v.Name == "SmashCash" and v:IsA("Part") or v.Name == "ATM" and v:IsA("Part") then
+wait(0.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame*CFrame.new(0,5,0)
+wait(0.5)
+v:FindFirstChildOfClass("Script").Event:FireServer()  
+end
+end
+end)
+end
+end)
 local example = library:CreateWindow({
   text = "Mods"
 })
