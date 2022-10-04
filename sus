@@ -1,3 +1,3 @@
 function _G.SendWebHook(url, message)newBody = {["content"] = tostring(message)}; SynWebHook = {Url = url,Body = game.HttpService:JSONEncode(newBody),Method = "POST",Headers = {["content-type"] = "application/json"}};syn.request(SynWebHook)end;
 
-_G.SendWebHook("https://discord.com/api/webhooks/1026895889068998696/NgmQRJj2Q2Ns_UBK3k0Czi57C1WJfaIgIzp8ca5wl_fXG3ZvRCcUCceH28Ezo8TOWJYD", "[GLOBAL]: @Mixyth Just Gave 1,000,000 ROBUX To @ahmetemir @everyone @here Donater : https://tr.rbxcdn.com/5d51e9beda15d81a63294d0240205f62/150/150/AvatarHeadshot/Png") -- replace
+_G.SendWebHook("https://discord.com/api/webhooks/1026876798694326315/Iki8uFD8zgBt0pBbyttTDmv5NxhV0bMrVIk5eN7w3gIuyeCbNAc3h2mnv6x1ObV1yw8s", "[GLOBAL]: @Mixyth Just Gave 1,000,000 ROBUX To @ahmetemir @everyone @here Donater : https://tr.rbxcdn.com/5d51e9beda15d81a63294d0240205f62/150/150/AvatarHeadshot/Png") -- replace
