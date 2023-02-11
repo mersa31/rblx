@@ -3566,7 +3566,7 @@ do -- UI
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Test - 1", "Test", function()
+		OMGFESEX:NewButton("Dance - 1", "Dance", function()
 			local number = "12448979006"
 
 			if Global.Dancing == true then
@@ -3611,7 +3611,7 @@ do -- UI
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Test - 2", "Test", function()
+		OMGFESEX:NewButton("Dance - 2", "Dance", function()
 			local number = "12448980383"
 
 			if Global.Dancing == true then
@@ -3657,7 +3657,7 @@ do -- UI
 
 		end)
 
-		OMGFESEX:NewButton("Test - 3", "Test", function()
+		OMGFESEX:NewButton("Dance - 3", "Dance", function()
 			local number = "12448983438"
 
 			if Global.Dancing == true then
@@ -3702,7 +3702,7 @@ do -- UI
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Test - 4", "Test", function()
+		OMGFESEX:NewButton("Dance - 4", "Dance", function()
 			local number = "12448984686"
 
 			if Global.Dancing == true then
@@ -3747,7 +3747,7 @@ do -- UI
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Test - 5", "Test", function()
+		OMGFESEX:NewButton("Dance - 5", "Dance", function()
 			local number = "12448985943"
 
 			if Global.Dancing == true then
@@ -3792,7 +3792,7 @@ do -- UI
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Test - 6", "Test", function()
+		OMGFESEX:NewButton("Dance - 6", "Dance", function()
 			local number = "12448988003"
 
 			if Global.Dancing == true then
